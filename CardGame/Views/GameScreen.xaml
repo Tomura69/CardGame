@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CardGame.Views.GameScreen">
+
+    <StackLayout>
+        <Label x:Name="TimeLeft" Text=""/>
+        <Label x:Name="ScoreCount" Text=""/>
+
+        <Grid>
+        <ScrollView>
+            <FlexLayout x:Name="cards"
+                        Wrap="Wrap"
+                        JustifyContent="SpaceAround" />
+        </ScrollView>
+
+    </Grid>
+
+        <Button Text="Pause" Clicked="pauseButton"/>
+    </StackLayout>
+</ContentPage>

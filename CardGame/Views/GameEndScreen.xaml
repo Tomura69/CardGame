@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CardGame.Views.GameEndScreen">
+    <StackLayout>
+        <Label x:Name="Name"/>
+        <Label x:Name="Score"/>
+        <Button Text="Leaderboard" Clicked="leaderboardButton"/>
+        <Button Text="Play again" Clicked="playAgainButton"/>
+        <Button Text="Exit" Clicked="exitButton"/>
+    </StackLayout>
+</ContentPage>
